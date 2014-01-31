@@ -2,7 +2,7 @@
   "name": "imgmin-with-gulp",
   "version": "0.0.1",
   "description": "exported images minify automation w/ gulp",
-  "main": "gruntfile.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
