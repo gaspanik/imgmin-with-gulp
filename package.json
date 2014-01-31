@@ -1,0 +1,16 @@
+{
+  "name": "imgmin-with-gulp",
+  "version": "0.0.1",
+  "description": "exported images minify automation w/ gulp",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Masaaki Komori",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "~3.5.0",
+    "gulp-util": "~2.2.13",
+    "gulp-imagemin": "~0.1.4"
+  }
+}
