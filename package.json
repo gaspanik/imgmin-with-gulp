@@ -1,6 +1,6 @@
 {
   "name": "imgmin-with-gulp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "exported images minify automation w/ gulp",
   "main": "gulpfile.js",
   "scripts": {
@@ -10,7 +10,6 @@
   "license": "MIT",
   "devDependencies": {
     "gulp": "~3.5.0",
-    "gulp-util": "~2.2.13",
     "gulp-imagemin": "~0.1.4"
   }
 }

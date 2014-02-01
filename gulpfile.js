@@ -1,17 +1,20 @@
-var
-	gulp = require('gulp'),
-	gutil = require('gulp-util'),
-	imagemin = require('gulp-imagemin');
+var gulp = require('gulp')
+,	imagemin = require('gulp-imagemin');
+
+var paths = {
+	srcDir: 'src/*',
+	destDir: 'images'
+}
 
 gulp.task('imagemin', function() {
-	gulp.src('src/*')
+	gulp.src(paths.srcDir)
 		.pipe(imagemin())
-		.pipe(gulp.dest('images'));
+		.pipe(gulp.dest(paths.destDir));
 });
 
 gulp.task('default', function() {
 	gulp.run('imagemin');
-	gulp.watch('src/**', function() {
+	gulp.watch(paths.srcDir, function() {
 		gulp.run('imagemin');
 	});
 });
